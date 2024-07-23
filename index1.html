@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Exemplo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./style1.css">
+  </head>
+
+  <body>
+    <h2>Formulário de verificação</h2>
+    <form id="formulario">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required="">
+        <span id="nome-error" class="error-message"></span>
+      </div>
+      <div>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required="">
+        <span id="idade-error" class="error-message"></span>
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+
+    <script src="script1.js"></script>
+
+
+  </body>
+
+</html>
